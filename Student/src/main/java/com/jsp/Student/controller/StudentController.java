@@ -19,7 +19,7 @@ import jakarta.mail.MessagingException;
 
 @RestController
 public class StudentController {
-
+   public static void main (String[] args){
 	@Autowired
 	private StudentService service;
 	
@@ -84,7 +84,7 @@ public class StudentController {
 		
 		
 		
-		
+}
 		
 		
 }
